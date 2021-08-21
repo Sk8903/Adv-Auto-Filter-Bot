@@ -353,12 +353,12 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     
     if cb_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('💖 Join Main Channel 💖', url='https://t.me/Sk_Tv_Official'),
+            InlineKeyboardButton('💖 Join Your Discussion Group 💖', url ='https://t.me/joinchat/aVuxlkFyedM0Y2Q1')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('🌐 Website 🌐', url='https://www.sktamilserialbots.com')
         ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
+            InlineKeyboardButton('Help ‼️', callback_data="help")
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -375,7 +375,7 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
             InlineKeyboardButton('Home ⚡', callback_data='start'),
             InlineKeyboardButton('About 🚩', callback_data='about')
         ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Close ❌', callback_data='close')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
