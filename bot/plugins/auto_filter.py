@@ -435,7 +435,7 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     
         if int(index_val) == (len(result) -1) or int(index_val) == 10: # Max 10 Page
             temp_results.append([
-                InlineKeyboardButton("⏪ Back", callback_data=f"{index_val} | {query.from_user.id} | back_btn")
+                InlineKeyboardButton("⏪Back", callback_data=f"{index_val} | {query.from_user.id} | back_btn")
             ])
     
         elif int(index_val) == 0:
@@ -450,7 +450,7 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
         reply_markup = InlineKeyboardMarkup(temp_results)
         
         if index_val == 0:
-           text=f"Found {(len(result)*30 - (30 - len(result [-1])))} Results For Query"
+           text=f"கிடைத்த {(len(result)*30 - (30 - len(result [-1])))} எபிசோட்"
         else:
            text=f"Page `{index_val}` For Your Query....."
         
